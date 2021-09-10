@@ -1,0 +1,58 @@
+body{
+    font-family: 'Inconsolata', monospace;
+    height: 97vh;
+}
+
+#root{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.selector_row{
+    display: flex;
+}
+
+.selector_item{
+    flex-grow: 1;
+}
+
+.selector{
+    display: flex;
+    flex-direction: column;
+}
+
+#timer_container{
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    text-align: center;
+}
+
+#timer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#controls{
+    display: flex;
+    flex-direction: column;
+}
+
+.control{
+    cursor: pointer;
+}
+
+.none_select{
+    cursor: default;
+}
+
+#timer_controls{
+    display: flex;
+}
+
+#start_stop, #reset{
+    flex-grow: 1;
+}
