@@ -243,7 +243,7 @@ class Presentational extends React.Component {
     })))), /*#__PURE__*/React.createElement("audio", {
       id: "beep",
       preload: "auto",
-      src: "https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/audio/BeepSound.wav"
+      src: "121800__boss-music__gong.wav"
     }));
   }
 

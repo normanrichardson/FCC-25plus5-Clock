@@ -237,7 +237,7 @@ class Presentational extends React.Component {
           </div>
         </div>
         {/*audio clip that is played when the timer reaches 00:00*/}
-        <audio id="beep" preload="auto" src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/audio/BeepSound.wav"></audio>
+        <audio id="beep" preload="auto" src="121800__boss-music__gong.wav"></audio>
       </div>
     )
   }
