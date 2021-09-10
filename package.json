@@ -4,7 +4,7 @@
   "description": "",
   "main": "script.js",
   "scripts": {
-    "generate": "npx babel src --out-dir ./babel_generate --presets react-app/prod"
+    "generate": "npx babel src --out-dir ./babel_generate --presets @babel/preset-react"
   },
   "repository": {
     "type": "git",
@@ -17,8 +17,10 @@
     "url": "https://github.com/normanrichardson/FCC-25plus5-Clock/issues"
   },
   "homepage": "https://github.com/normanrichardson/FCC-25plus5-Clock#readme",
-  "dependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-preset-react-app": "^3.1.2"
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.15.4",
+    "@babel/core": "^7.15.5",
+    "@babel/preset-react": "^7.14.5"
   }
 }
