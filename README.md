@@ -8,23 +8,31 @@ View [here](https://normanrichardson.github.io/FCC-25plus5-Clock/).
 
 The project requirements can be tested by selecting the "hamburger menu" in the top left and selecting the "25 + 5 Clock" option.
 
+### Project Improvements
+
+* Deployed to on Github pages [here](https://normanrichardson.github.io/FCC-25plus5-Clock/).
+
 ### Usage
 1. Clone the Repository
-> git clone https://github.com/normanrichardson/FCC-25plus5-Clock.git
-
-> cd FCC-25plus5-Clock
+    ```
+    $ git clone https://github.com/normanrichardson/FCC-25plus5-Clock.git
+    $ cd FCC-25plus5-Clock
+    ```
 
 2. Changes
 
-The react components use JSX and need to be compiled via babel
-> npm script `npm generate`
+    The react components use JSX and need to be compiled via babel
+    ```
+    $ npm script `npm generate`
+    ```
 
 3. Run a local server
 
-For example:
-> python -m http.server
-
-View on `localhost:8000`
+    For example:
+    ```
+    $ python -m http.server
+    ```
+    View on `localhost:8000`
 
 This web app uses these sounds from freesound:
 * "gong" by BOSS MUSIC ( https://freesound.org/s/121800/ ) licensed under CCBYNC 3.0
